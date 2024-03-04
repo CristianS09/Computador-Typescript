@@ -1,8 +1,8 @@
 class Pc {
     nome: string;
-    ram: number;
-    cpu: number;
-    ligado: boolean;
+    private ram: number;
+    private cpu: number;
+    private ligado: boolean;
 
     constructor(nome: string, ram: number, cpu: number) {
         this.nome = nome;
